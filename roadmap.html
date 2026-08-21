@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ELS Roadmap | Enabled Learning Systems</title>
+<meta name="description" content="The ELS Roadmap: Blueprint for Continuous Improvement. A progressive learning framework designed to build a sustainable continuous improvement culture.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .roadmap-tier { margin-bottom: 36px; }
+  .roadmap-tier-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #C6963C;
+    margin-bottom: 14px;
+  }
+  .roadmap-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  .roadmap-card {
+    background: #F0F3F6;
+    border-top: 4px solid #1B2A38;
+    border-radius: 0 0 8px 8px;
+    padding: 18px;
+  }
+  .roadmap-card h4 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #1B2A38;
+    margin-bottom: 8px;
+  }
+  .roadmap-card p {
+    font-size: 0.85rem;
+    color: #3D5166;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  .roadmap-prereq {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #C6963C;
+  }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 3.2C7.6 3.2 3.2 7.6 3.2 13S7.6 22.8 13 22.8" stroke="#C6963C" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M13 22.8c5.4 0 9.8-4.4 9.8-9.8S18.4 3.2 13 3.2" stroke="#1B2A38" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="0.5 5.3"/>
+<circle cx="13" cy="3.2" r="2" fill="#C6963C"/>
+<circle cx="13" cy="22.8" r="2" fill="#1B2A38"/>
+</svg><span class="logo-word">Enabled Learning Systems</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.main-nav').classList.toggle('open')">
+      <svg width="18" height="14" viewBox="0 0 18 14" fill="none"><path d="M0 1h18M0 7h18M0 13h18" stroke="#1B2A38" stroke-width="1.6"/></svg>
+    </button>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">Home</a>
+<a href="challenge.html" class="nav-link">Challenge</a>
+<a href="approach.html" class="nav-link">Approach</a>
+<a href="roadmap.html" class="nav-link active">ELS Roadmap</a>
+<a href="about.html" class="nav-link">About</a>
+<a href="team.html" class="nav-link">Team</a>
+<a href="contact.html" class="nav-link">Contact</a>
+
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <p style="font-size:0.8rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#C6963C; margin-bottom:12px;">ELS Roadmap</p>
+    <h1 class="display">The ELS Roadmap: Blueprint for Continuous Improvement</h1>
+    <p class="lede" style="max-width:760px;">The ELS Roadmap is a progressive learning framework designed to build a sustainable continuous improvement culture. It guides teams and leaders step-by-step through foundational concepts, technical methodologies like process mapping and problem-solving, and advanced leadership execution.</p>
+
+    <div class="roadmap-tier" style="margin-top:40px;">
+      <div class="roadmap-tier-label">Stage 1 &middot; Foundation</div>
+      <div class="roadmap-row" style="grid-template-columns: 1fr;">
+        <div class="roadmap-card">
+          <h4>Foundational Concepts</h4>
+          <p>Basic concepts and values necessary to sustain a Continuous Improvement culture. Includes values, muda/muri/mura, hansei-kay (review meetings), etc.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="roadmap-tier">
+      <div class="roadmap-tier-label">Stage 2 &middot; Core Practices</div>
+      <div class="roadmap-row">
+        <div class="roadmap-card">
+          <h4>TPS Basics</h4>
+          <p>The thinking-way of Toyota Production System and Continuous Improvement. Includes Toyota Production System simulation.</p>
+          <div class="roadmap-prereq">Requires: Foundational Concepts</div>
+        </div>
+        <div class="roadmap-card">
+          <h4>A3 Communication</h4>
+          <p>The basic concept of using an A3 for good communication and presentations to leadership and others.</p>
+          <div class="roadmap-prereq">Requires: Foundational Concepts</div>
+        </div>
+        <div class="roadmap-card">
+          <h4>Process Mapping</h4>
+          <p>Visualize processes for standardization and to identify problems.</p>
+          <div class="roadmap-prereq">Requires: Foundational Concepts</div>
+        </div>
+        <div class="roadmap-card">
+          <h4>Team Basics</h4>
+          <p>Create a workplace where servant leadership and continuous improvement thrives.</p>
+          <div class="roadmap-prereq">Requires: Foundational Concepts</div>
+        </div>
+        <div class="roadmap-card">
+          <h4>CI for Leaders</h4>
+          <p>Continuous improvement through customer-first empowerment.</p>
+          <div class="roadmap-prereq">Requires: Foundational Concepts</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="roadmap-tier">
+      <div class="roadmap-tier-label">Stage 3 &middot; Applied Skills</div>
+      <div class="roadmap-row">
+        <div class="roadmap-card">
+          <h4>Standardization</h4>
+          <p>Tools for creating consistent standards across processes.</p>
+          <div class="roadmap-prereq">Requires: Foundational Concepts, Process Mapping</div>
+        </div>
+        <div class="roadmap-card">
+          <h4>8 Step Problem Solving</h4>
+          <p>Solving problems at the root cause level.</p>
+          <div class="roadmap-prereq">Requires: Foundational Concepts, A3 Communication</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="roadmap-tier">
+      <div class="roadmap-tier-label">Stage 4 &middot; Advanced Practice</div>
+      <div class="roadmap-row">
+        <div class="roadmap-card">
+          <h4>On the Job Development</h4>
+          <p>Coaching team members through CI activities.</p>
+          <div class="roadmap-prereq">Requires: Foundational Concepts, A3 Communication, Process Mapping, Standardization, 8 Step Problem Solving</div>
+        </div>
+        <div class="roadmap-card">
+          <h4>Strategic Planning</h4>
+          <p>Clarifying and aligning operational goals for organizational cascade and alignment.</p>
+          <div class="roadmap-prereq">Requires: Foundational Concepts, 8 Step Problem Solving</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 3.2C7.6 3.2 3.2 7.6 3.2 13S7.6 22.8 13 22.8" stroke="#C6963C" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M13 22.8c5.4 0 9.8-4.4 9.8-9.8S18.4 3.2 13 3.2" stroke="#1B2A38" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="0.5 5.3"/>
+<circle cx="13" cy="3.2" r="2" fill="#C6963C"/>
+<circle cx="13" cy="22.8" r="2" fill="#1B2A38"/>
+</svg><span class="logo-word">Enabled Learning Systems</span></a>
+        <p>Disciplined continuous improvement connected to responsible AI-enabled inquiry.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Start</h5>
+        <a href="contact.html">Start a Conversation</a>
+      </div>
+      <div class="footer-col">
+        <h5>Watch</h5>
+        <span class="muted">All Videos (coming soon)</span>
+      </div>
+      <div class="footer-col">
+        <h5>Read</h5>
+        <span class="muted">All Articles (coming soon)</span>
+      </div>
+      <div class="footer-col">
+        <h5>About</h5>
+        <a href="about.html">About</a>
+        <a href="about.html#background">Background</a>
+        <a href="about.html#belief">Belief</a>
+        <a href="about.html#experience">Experience</a>
+      </div>
+    </div>
+    <div class="footer-col" style="margin-top:32px;">
+      <h5>Contact</h5>
+      <a href="mailto:info@enabledlearningsystems.com">info@enabledlearningsystems.com</a>
+    </div>
+    <div class="footer-bottom">
+      <span>Version 1.0</span>
+      <span>&copy; 2026 Enabled Learning Systems. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
