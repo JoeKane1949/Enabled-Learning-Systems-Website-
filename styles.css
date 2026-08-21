@@ -269,9 +269,9 @@ a { color: #1B2A38; text-decoration: none; }
 /* Responsive */
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; }
-  .hero-photo { order: -1; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .note-grid { grid-template-columns: 1fr; }
+  .section { padding: 48px 0; }
 }
 
 @media (max-width: 600px) {
@@ -292,4 +292,5 @@ a { color: #1B2A38; text-decoration: none; }
   .footer-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; gap: 8px; }
   .card-grid { grid-template-columns: 1fr !important; }
+  .section { padding: 36px 0; }
 }
